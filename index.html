@@ -29,6 +29,58 @@
             transform: translateY(-2px);
         }
 
+        .tech-marquee {
+            overflow: hidden;
+            mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+        }
+
+        .tech-marquee-track {
+            display: flex;
+            width: max-content;
+            animation: tech-marquee-scroll 36s linear infinite;
+        }
+
+        .tech-marquee:hover .tech-marquee-track {
+            animation-play-state: paused;
+        }
+
+        .tech-marquee-group {
+            display: flex;
+            flex: none;
+            align-items: center;
+            gap: 3rem;
+            padding-right: 3rem;
+        }
+
+        @keyframes tech-marquee-scroll {
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .tech-marquee {
+                overflow: visible;
+                mask-image: none;
+            }
+
+            .tech-marquee-track {
+                width: auto;
+                animation: none;
+            }
+
+            .tech-marquee-group {
+                flex: 1 1 auto;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding-right: 0;
+            }
+
+            .tech-marquee-group[aria-hidden="true"] {
+                display: none;
+            }
+        }
+
         a:focus-visible {
             outline: 2px solid #B6F36B;
             outline-offset: 4px;
@@ -196,20 +248,39 @@
                     <span data-i18n="tech-label">Technologies & Tools</span>
                 </p>
 
-                <div class="flex flex-wrap justify-center gap-x-12 gap-y-6 text-lg font-semibold text-gray-400">
-                    <span>PHP</span>
-                    <span>Laravel</span>
-                    <span>Vue.js</span>
-                    <span>JavaScript</span>
-                    <span>TypeScript</span>
-                    <span>Node.js</span>
-                    <span>Inertia.js</span>
-                    <span>Tailwind CSS</span>
-                    <span>MySQL</span>
-                    <span>SQLite</span>
-                    <span>Vite</span>
-                    <span>Git</span>
-                    <span>GitHub</span>
+                <div class="tech-marquee text-lg font-semibold text-gray-400" role="list" aria-label="Technologies et outils">
+                    <div class="tech-marquee-track">
+                        <div class="tech-marquee-group">
+                            <span role="listitem">PHP</span>
+                            <span role="listitem">Laravel</span>
+                            <span role="listitem">Vue.js</span>
+                            <span role="listitem">JavaScript</span>
+                            <span role="listitem">TypeScript</span>
+                            <span role="listitem">Node.js</span>
+                            <span role="listitem">Inertia.js</span>
+                            <span role="listitem">Tailwind CSS</span>
+                            <span role="listitem">MySQL</span>
+                            <span role="listitem">SQLite</span>
+                            <span role="listitem">Vite</span>
+                            <span role="listitem">Git</span>
+                            <span role="listitem">GitHub</span>
+                        </div>
+                        <div class="tech-marquee-group" aria-hidden="true">
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>Vue.js</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>Node.js</span>
+                            <span>Inertia.js</span>
+                            <span>Tailwind CSS</span>
+                            <span>MySQL</span>
+                            <span>SQLite</span>
+                            <span>Vite</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -244,7 +315,7 @@
                             <span data-i18n="about-paragraph-3">Mon objectif est de transformer des idées en solutions numériques utiles, performantes et faciles à maintenir.</span>
                         </p>
 
-                        <a href="assets/cv-abdou-kebe.docx" download="CV-Abdou-Kebe.docx" class="inline-flex items-center gap-3 text-accent font-semibold hover:gap-5 transition-all" data-i18n="cv-download">
+                        <a href="assets/CV-Abdou-Kebe.pdf" download="CV-Abdou-Kebe.pdf" class="inline-flex items-center gap-3 text-accent font-semibold hover:gap-5 transition-all" data-i18n="cv-download">
                             Télécharger mon CV ↓
                         </a>
                     </div>
@@ -330,9 +401,7 @@
                     <article class="group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent transition">
 
                         <div class="h-64 overflow-hidden bg-[#1B2920]">
-                            <a href="assets/images/teranga-market-portfolio.png" target="_blank" rel="noopener noreferrer" aria-label="Voir la capture complète de Teranga Market" class="block h-full w-full">
-                                <img src="assets/images/teranga-market-preview.jpg" alt="Aperçu de la page d’accueil de Teranga Market" class="h-64 w-full object-cover object-center transition duration-500 group-hover:scale-105" loading="lazy" decoding="async">
-                            </a>
+                            <img src="assets/images/project-teranga.svg" alt="" class="h-64 w-full object-cover object-center transition duration-500 group-hover:scale-105" loading="lazy" decoding="async">
                         </div>
 
                         <div class="p-8">
@@ -364,8 +433,75 @@
                     <!-- PROJECT 2 -->
                     <article class="group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent transition">
 
-                        <div class="h-64 bg-[#20202B] flex items-center justify-center">
-                            <span class="text-5xl font-extrabold text-accent">02</span>
+                        <div class="h-64 overflow-hidden bg-[#20202B]">
+                            <img src="assets/images/project-sma-campus.svg" alt="" class="h-64 w-full object-cover object-center transition duration-500 group-hover:scale-105" loading="lazy" decoding="async">
+                        </div>
+
+                        <div class="p-8">
+                            <div class="flex justify-between items-center gap-4 mb-5">
+                                <span class="text-xs text-accent uppercase tracking-widest" data-i18n="project-type-app">Application Web</span>
+                                <span class="text-muted text-right" data-i18n="project-campus-category">Réservations</span>
+                            </div>
+
+                            <h3 class="text-2xl font-bold mb-4">SMA Campus</h3>
+
+                            <p class="text-muted text-sm leading-7 mb-6">
+                                <span data-i18n="project-campus-description">Application de gestion des réservations développée avec Laravel : utilisateurs, salles et réservations, avec une logique métier structurée en services.</span>
+                            </p>
+
+                            <div class="flex flex-wrap gap-2 mb-7">
+                                <span class="px-3 py-1 bg-dark rounded-full text-xs text-muted">Laravel</span>
+                                <span class="px-3 py-1 bg-dark rounded-full text-xs text-muted">PHP</span>
+                                <span class="px-3 py-1 bg-dark rounded-full text-xs text-muted">MySQL</span>
+                            </div>
+
+                            <a href="https://github.com/blacksnakesn-del" class="text-accent font-semibold text-sm">
+                                <span data-i18n="projects-github">Voir mes projets sur GitHub ↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+                    <article class="group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent transition">
+
+                        <div class="h-64 overflow-hidden bg-[#1B2920]">
+                            <img src="assets/images/project-hemopulse.svg" alt="" class="h-64 w-full object-cover object-center transition duration-500 group-hover:scale-105" loading="lazy" decoding="async">
+                        </div>
+
+                        <div class="p-8">
+                            <div class="flex justify-between items-center gap-4 mb-5">
+                                <span class="text-xs text-accent uppercase tracking-widest" data-i18n="project-type-design">Conception</span>
+                                <span class="text-muted text-right" data-i18n="project-hemopulse-category">Santé numérique</span>
+                            </div>
+
+                            <h3 class="text-2xl font-bold mb-4">Hemopulse</h3>
+
+                            <p class="text-muted text-sm leading-7 mb-6">
+                                <span data-i18n="project-hemopulse-description">Conception d'une solution de gestion des dons de sang : besoins pour les donneurs et les stocks, alertes de pénurie et étude de traitements asynchrones.</span>
+                            </p>
+
+                            <div class="flex flex-wrap gap-2 mb-7">
+                                <span class="px-3 py-1 bg-dark rounded-full text-xs text-muted">Laravel</span>
+                                <span class="px-3 py-1 bg-dark rounded-full text-xs text-muted">MySQL</span>
+                                <span class="px-3 py-1 bg-dark rounded-full text-xs text-muted">Redis</span>
+                                <span class="px-3 py-1 bg-dark rounded-full text-xs text-muted">Docker</span>
+                            </div>
+
+                            <a href="https://github.com/blacksnakesn-del" class="text-accent font-semibold text-sm">
+                                <span data-i18n="projects-github">Voir mes projets sur GitHub ↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 4 -->
+                    <article class="group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent transition">
+
+                        <div class="h-64 overflow-hidden bg-[#20202B]">
+                            <img src="assets/images/project-user-api.svg" alt="" class="h-64 w-full object-cover object-center transition duration-500 group-hover:scale-105" loading="lazy" decoding="async">
                         </div>
 
                         <div class="p-8">

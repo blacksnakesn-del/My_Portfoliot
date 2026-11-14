@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" fill="none">
+  <defs>
+    <linearGradient id="background" x1="105" y1="32" x2="1083" y2="624" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#301D25"/>
+      <stop offset="1" stop-color="#151318"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="406" y1="181" x2="1009" y2="527" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#282127"/>
+      <stop offset="1" stop-color="#1C191E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#background)"/>
+  <circle cx="1023" cy="103" r="205" fill="#F87171" fill-opacity=".08"/>
+  <circle cx="154" cy="587" r="213" fill="#B6F36B" fill-opacity=".035"/>
+  <rect x="118" y="68" width="964" height="504" rx="25" fill="#111013" stroke="#49353B" stroke-width="2"/>
+  <path d="M143 68h914a25 25 0 0 1 25 25v41H118V93a25 25 0 0 1 25-25Z" fill="#211B20"/>
+  <circle cx="152" cy="103" r="7" fill="#F87171"/>
+  <circle cx="176" cy="103" r="7" fill="#FBBF24"/>
+  <circle cx="200" cy="103" r="7" fill="#B6F36B"/>
+  <rect x="399" y="89" width="402" height="28" rx="14" fill="#131114" stroke="#40343A"/>
+  <text x="600" y="108" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="middle">hemopulse · concept d'application</text>
+  <rect x="143" y="158" width="207" height="390" rx="13" fill="#1C191D"/>
+  <circle cx="177" cy="191" r="19" fill="#4B242E"/>
+  <path d="M177 178c-5 8-10 13-10 19a10 10 0 0 0 20 0c0-6-5-11-10-19Z" fill="#F87171"/>
+  <text x="207" y="188" fill="#F3ECEE" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">HemoPulse</text>
+  <text x="207" y="205" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="9">CONCEPT · SANTÉ</text>
+  <rect x="159" y="240" width="175" height="36" rx="9" fill="#3A252D"/>
+  <path d="M172 258h5l4-7 5 14 4-7h6" stroke="#FCA5A5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="203" y="262" fill="#FECACA" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">Vue d'ensemble</text>
+  <circle cx="181" cy="304" r="7" stroke="#8F7F85" stroke-width="1.5"/>
+  <path d="M177 304h8m-4-4v8" stroke="#8F7F85" stroke-width="1.3"/>
+  <text x="203" y="308" fill="#B3A9AE" font-family="Inter,Arial,sans-serif" font-size="11">Donneurs</text>
+  <path d="M174 350h14v14h-14z" stroke="#8F7F85" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M177 357h8m-4-4v8" stroke="#8F7F85" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="203" y="361" fill="#B3A9AE" font-family="Inter,Arial,sans-serif" font-size="11">Stocks</text>
+  <path d="M181 397v14m-7-7h14" stroke="#8F7F85" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="203" y="408" fill="#B3A9AE" font-family="Inter,Arial,sans-serif" font-size="11">Alertes</text>
+  <path d="M159 434h175" stroke="#3B3136"/>
+  <circle cx="181" cy="462" r="5" fill="#F87171"/>
+  <text x="198" y="466" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="10">Prototype conceptuel</text>
+  <text x="382" y="193" fill="#F4F1F2" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">Suivi des stocks de sang</text>
+  <text x="382" y="217" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="12">Une piste de réflexion pour mieux anticiper les besoins.</text>
+  <rect x="882" y="178" width="163" height="34" rx="9" fill="#39242B" stroke="#62404A"/>
+  <circle cx="900" cy="195" r="4" fill="#F87171"/>
+  <text x="962" y="199" fill="#FECACA" font-family="Inter,Arial,sans-serif" font-size="10" text-anchor="middle">MAQUETTE CONCEPTUELLE</text>
+  <rect x="382" y="244" width="205" height="111" rx="13" fill="url(#panel)" stroke="#41343A"/>
+  <text x="401" y="272" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="10">DONNEURS RECENSÉS</text>
+  <text x="401" y="316" fill="#F4F1F2" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="700">1 284</text>
+  <circle cx="553" cy="308" r="17" fill="#3A252D"/>
+  <path d="M553 299c-4 6-7 9-7 13a7 7 0 0 0 14 0c0-4-3-7-7-13Z" fill="#F87171"/>
+  <rect x="602" y="244" width="205" height="111" rx="13" fill="url(#panel)" stroke="#41343A"/>
+  <text x="621" y="272" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="10">STOCK DISPONIBLE</text>
+  <text x="621" y="316" fill="#F4F1F2" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="700">426</text>
+  <text x="690" y="314" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="11">poches</text>
+  <rect x="735" y="299" width="53" height="22" rx="11" fill="#26372A"/>
+  <text x="761" y="314" fill="#B6F36B" font-family="Inter,Arial,sans-serif" font-size="9" text-anchor="middle">APERÇU</text>
+  <rect x="822" y="244" width="223" height="111" rx="13" fill="url(#panel)" stroke="#41343A"/>
+  <text x="841" y="272" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="10">SEUIL DE VIGILANCE</text>
+  <text x="841" y="316" fill="#F4F1F2" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700">À surveiller</text>
+  <circle cx="1018" cy="301" r="10" fill="#62422A"/>
+  <path d="M1018 295v7m0 4v.5" stroke="#FBBF24" stroke-width="1.7" stroke-linecap="round"/>
+  <rect x="382" y="377" width="405" height="154" rx="13" fill="url(#panel)" stroke="#41343A"/>
+  <text x="402" y="405" fill="#F0EAEC" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">Niveaux par groupe sanguin</text>
+  <text x="402" y="438" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="10">A+</text>
+  <rect x="435" y="428" width="238" height="11" rx="5.5" fill="#393137"/>
+  <rect x="435" y="428" width="190" height="11" rx="5.5" fill="#B6F36B"/>
+  <text x="699" y="438" fill="#D5D0D2" font-family="Inter,Arial,sans-serif" font-size="10">80%</text>
+  <text x="402" y="466" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="10">O−</text>
+  <rect x="435" y="456" width="238" height="11" rx="5.5" fill="#393137"/>
+  <rect x="435" y="456" width="105" height="11" rx="5.5" fill="#F87171"/>
+  <text x="699" y="466" fill="#FCA5A5" font-family="Inter,Arial,sans-serif" font-size="10">44%</text>
+  <text x="402" y="494" fill="#A39AA0" font-family="Inter,Arial,sans-serif" font-size="10">B+</text>
+  <rect x="435" y="484" width="238" height="11" rx="5.5" fill="#393137"/>
+  <rect x="435" y="484" width="157" height="11" rx="5.5" fill="#D99A70"/>
+  <text x="699" y="494" fill="#D5D0D2" font-family="Inter,Arial,sans-serif" font-size="10">66%</text>
+  <rect x="806" y="377" width="239" height="154" rx="13" fill="#261D22" stroke="#50353F"/>
+  <circle cx="838" cy="409" r="13" fill="#4C2B35"/>
+  <path d="M838 401v9m0 5v.5" stroke="#FCA5A5" stroke-width="1.7" stroke-linecap="round"/>
+  <text x="861" y="406" fill="#F3E9EC" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">Alerte de stock bas</text>
+  <text x="826" y="444" fill="#B9AEB2" font-family="Inter,Arial,sans-serif" font-size="10">Le groupe O− approche du</text>
+  <text x="826" y="460" fill="#B9AEB2" font-family="Inter,Arial,sans-serif" font-size="10">seuil défini. Vérifiez les besoins.</text>
+  <rect x="826" y="481" width="113" height="27" rx="7" fill="#3B272E"/>
+  <text x="882" y="499" fill="#FECACA" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" text-anchor="middle">Voir le concept</text>
+</svg>

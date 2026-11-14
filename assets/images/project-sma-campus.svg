@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" fill="none">
+  <defs>
+    <linearGradient id="background" x1="87" y1="41" x2="1087" y2="611" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#201D31"/>
+      <stop offset="1" stop-color="#11131A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="391" y1="174" x2="995" y2="537" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#242534"/>
+      <stop offset="1" stop-color="#191A25"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#background)"/>
+  <circle cx="1030" cy="75" r="205" fill="#A78BFA" fill-opacity=".09"/>
+  <circle cx="131" cy="574" r="205" fill="#B6F36B" fill-opacity=".035"/>
+  <rect x="118" y="68" width="964" height="504" rx="25" fill="#101117" stroke="#393747" stroke-width="2"/>
+  <path d="M143 68h914a25 25 0 0 1 25 25v41H118V93a25 25 0 0 1 25-25Z" fill="#1B1B26"/>
+  <circle cx="152" cy="103" r="7" fill="#F87171"/>
+  <circle cx="176" cy="103" r="7" fill="#FBBF24"/>
+  <circle cx="200" cy="103" r="7" fill="#B6F36B"/>
+  <rect x="399" y="89" width="402" height="28" rx="14" fill="#111119" stroke="#343342"/>
+  <text x="600" y="108" fill="#92929A" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="middle">sma-campus.local / réservations</text>
+  <rect x="142" y="158" width="211" height="390" rx="13" fill="#1A1B25"/>
+  <rect x="162" y="180" width="36" height="36" rx="11" fill="#A78BFA"/>
+  <path d="M171 190h18v16h-18zm3-4v7m12-7v7m-15 2h18" stroke="#1B1730" stroke-width="1.7" stroke-linejoin="round"/>
+  <text x="209" y="194" fill="#F0EFF7" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">SMA Campus</text>
+  <text x="209" y="210" fill="#92929A" font-family="Inter,Arial,sans-serif" font-size="10">ESPACE ADMINISTRATEUR</text>
+  <rect x="158" y="242" width="178" height="37" rx="9" fill="#302B40"/>
+  <rect x="171" y="254" width="13" height="13" rx="3" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="195" y="264" fill="#DDD6FE" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">Réservations</text>
+  <rect x="171" y="300" width="13" height="13" rx="3" stroke="#777783" stroke-width="1.5"/>
+  <text x="195" y="311" fill="#A4A4AE" font-family="Inter,Arial,sans-serif" font-size="12">Salles</text>
+  <circle cx="178" cy="349" r="7" stroke="#777783" stroke-width="1.5"/>
+  <path d="M166 369c1-10 23-10 24 0" stroke="#777783" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="195" y="355" fill="#A4A4AE" font-family="Inter,Arial,sans-serif" font-size="12">Utilisateurs</text>
+  <path d="M158 394h178" stroke="#34343E"/>
+  <circle cx="178" cy="426" r="6" fill="#B6F36B"/>
+  <text x="195" y="430" fill="#B8B8C2" font-family="Inter,Arial,sans-serif" font-size="11">Services Laravel</text>
+  <text x="388" y="193" fill="#F4F4F5" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">Planning des réservations</text>
+  <text x="388" y="217" fill="#92929A" font-family="Inter,Arial,sans-serif" font-size="12">Gérez les salles et les créneaux du campus.</text>
+  <rect x="886" y="178" width="159" height="36" rx="10" fill="#A78BFA"/>
+  <path d="M903 196h13m-6.5-6.5v13" stroke="#211A32" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="974" y="201" fill="#211A32" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" text-anchor="middle">Nouvelle réservation</text>
+  <rect x="388" y="244" width="657" height="288" rx="14" fill="url(#panel)" stroke="#393847"/>
+  <text x="414" y="273" fill="#F1F0F6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">Semaine du 12 octobre</text>
+  <path d="M989 269h22m-7-7 7 7-7 7" stroke="#A8A7B2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M414 295h605M414 339h605M414 383h605M414 427h605M414 471h605M414 515h605" stroke="#353542"/>
+  <path d="M510 287v228m101-228v228m101-228v228m101-228v228m101-228v228m101-228v228" stroke="#353542"/>
+  <text x="559" y="319" fill="#A4A3AF" font-family="Inter,Arial,sans-serif" font-size="10" text-anchor="middle">LUN</text>
+  <text x="660" y="319" fill="#A4A3AF" font-family="Inter,Arial,sans-serif" font-size="10" text-anchor="middle">MAR</text>
+  <text x="761" y="319" fill="#A4A3AF" font-family="Inter,Arial,sans-serif" font-size="10" text-anchor="middle">MER</text>
+  <text x="862" y="319" fill="#A4A3AF" font-family="Inter,Arial,sans-serif" font-size="10" text-anchor="middle">JEU</text>
+  <text x="963" y="319" fill="#A4A3AF" font-family="Inter,Arial,sans-serif" font-size="10" text-anchor="middle">VEN</text>
+  <text x="431" y="365" fill="#777783" font-family="Inter,Arial,sans-serif" font-size="9">09:00</text>
+  <text x="431" y="409" fill="#777783" font-family="Inter,Arial,sans-serif" font-size="9">11:00</text>
+  <text x="431" y="453" fill="#777783" font-family="Inter,Arial,sans-serif" font-size="9">13:00</text>
+  <text x="431" y="497" fill="#777783" font-family="Inter,Arial,sans-serif" font-size="9">15:00</text>
+  <rect x="521" y="347" width="80" height="35" rx="7" fill="#38314E"/>
+  <text x="561" y="368" fill="#D8CCFF" font-family="Inter,Arial,sans-serif" font-size="9" text-anchor="middle">Salle A · Cours</text>
+  <rect x="622" y="391" width="80" height="35" rx="7" fill="#2E3A34"/>
+  <text x="662" y="412" fill="#C5E7BA" font-family="Inter,Arial,sans-serif" font-size="9" text-anchor="middle">Salle B · Libre</text>
+  <rect x="723" y="435" width="80" height="35" rx="7" fill="#38314E"/>
+  <text x="763" y="456" fill="#D8CCFF" font-family="Inter,Arial,sans-serif" font-size="9" text-anchor="middle">Salle C · Réunion</text>
+  <rect x="824" y="347" width="80" height="35" rx="7" fill="#343C2B"/>
+  <text x="864" y="368" fill="#D5E6AE" font-family="Inter,Arial,sans-serif" font-size="9" text-anchor="middle">Salle A · Libre</text>
+</svg>

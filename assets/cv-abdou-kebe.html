@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV d'Abdou Kebe, développeur full stack junior basé à Dakar.">
+    <title>Abdou Kebe — Développeur Full Stack Junior</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 11mm 13mm;
+        }
+
+        :root {
+            color-scheme: light;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #20252b;
+            background: #fff;
+            font-synthesis: none;
+            text-rendering: optimizeLegibility;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 184mm;
+            margin: 0 auto;
+            font-size: 10pt;
+            line-height: 1.42;
+        }
+
+        header {
+            padding: 0 0 6mm;
+            border-bottom: 2px solid #293b4b;
+        }
+
+        h1 {
+            margin: 0;
+            color: #182b3b;
+            font-size: 27pt;
+            line-height: 1.04;
+            letter-spacing: .3px;
+        }
+
+        .role {
+            margin: 1.5mm 0 1mm;
+            color: #426d69;
+            font-size: 12pt;
+            font-weight: 700;
+        }
+
+        .specialty {
+            margin: 0;
+            color: #57616a;
+            font-size: 9.5pt;
+        }
+
+        address {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2mm 5mm;
+            margin-top: 3mm;
+            color: #3d4650;
+            font-size: 8.8pt;
+            font-style: normal;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        section {
+            margin-top: 5mm;
+            break-inside: avoid;
+        }
+
+        h2 {
+            margin: 0 0 1.8mm;
+            padding-bottom: 1mm;
+            border-bottom: 1px solid #d5dce0;
+            color: #243b4d;
+            font-size: 10.5pt;
+            letter-spacing: .8px;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .profile {
+            color: #3d4650;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.7mm 6mm;
+            color: #3d4650;
+        }
+
+        .skills strong {
+            color: #263c4d;
+        }
+
+        .project {
+            margin-top: 2.7mm;
+            break-inside: avoid;
+        }
+
+        .project:first-of-type {
+            margin-top: 0;
+        }
+
+        .project h3 {
+            display: inline;
+            margin: 0;
+            color: #202c37;
+            font-size: 9.8pt;
+        }
+
+        .project .stack {
+            color: #4b6d68;
+            font-size: 8.5pt;
+            font-weight: 700;
+        }
+
+        .project p {
+            margin-top: .5mm;
+            color: #48515a;
+        }
+
+        .bottom-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8mm;
+        }
+
+        .bottom-grid p + p {
+            margin-top: 1mm;
+        }
+
+        .muted {
+            color: #56616b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABDOU KEBE</h1>
+        <p class="role">Développeur Full Stack Junior</p>
+        <p class="specialty">Applications web · Backend · API REST</p>
+        <address>
+            <span>Dakar, Sénégal</span>
+            <a href="mailto:black.snake.sn@gmail.com">black.snake.sn@gmail.com</a>
+            <a href="tel:+221769286371">+221 76 928 63 71</a>
+            <a href="https://github.com/blacksnakesn-del">GitHub : github.com/blacksnakesn-del</a>
+            <a href="https://abdoukebesn.vercel.app">Portfolio : abdoukebesn.vercel.app</a>
+        </address>
+    </header>
+
+    <main>
+        <section>
+            <h2>Profil</h2>
+            <p class="profile">Développeur full stack junior basé à Dakar, je conçois des applications web et des API avec Laravel/PHP et JavaScript/TypeScript. Mes projets portent notamment sur le commerce en ligne, la gestion de réservations et les API sécurisées. Je souhaite rejoindre une équipe pour contribuer à des produits utiles et continuer à progresser.</p>
+        </section>
+
+        <section>
+            <h2>Compétences techniques</h2>
+            <div class="skills">
+                <p><strong>Backend :</strong> PHP, Laravel, Node.js, Express.js, API REST, JWT</p>
+                <p><strong>Frontend :</strong> JavaScript, TypeScript, Vue.js, HTML, CSS, Tailwind CSS</p>
+                <p><strong>Données :</strong> MySQL, PostgreSQL, Eloquent, Sequelize, SQL</p>
+                <p><strong>Conception :</strong> MVC, POO, architecture en couches</p>
+                <p><strong>Outils :</strong> Git, GitHub, GitLab, Postman, Docker</p>
+                <p><strong>Environnement :</strong> Composer, npm</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projets</h2>
+            <article class="project">
+                <h3>Teranga Market — plateforme e-commerce</h3>
+                <span class="stack"> · Laravel, Vue.js, Inertia.js, MySQL, Tailwind CSS</span>
+                <p>Contribution à la conception de la plateforme ; gestion des produits et catégories, interface utilisateur et interactions avec la base de données.</p>
+            </article>
+            <article class="project">
+                <h3>SMA Campus — gestion des réservations</h3>
+                <span class="stack"> · Laravel, PHP, MySQL</span>
+                <p>Développement de la gestion des utilisateurs, salles et réservations ; structuration de la logique métier en services et définition des notifications SMS, e-mail et WhatsApp.</p>
+            </article>
+            <article class="project">
+                <h3>Hemopulse — conception d'une solution de gestion des dons de sang</h3>
+                <span class="stack"> · Laravel, MySQL, Redis, Docker</span>
+                <p>Étude des besoins liés aux donneurs et aux stocks, conception d'alertes de pénurie et exploration de traitements asynchrones et d'un assistant conversationnel.</p>
+            </article>
+            <article class="project">
+                <h3>User Management API — API REST</h3>
+                <span class="stack"> · Node.js, TypeScript, Express.js, Sequelize, MySQL</span>
+                <p>Conception de l'architecture backend et gestion des utilisateurs ; authentification JWT et hachage des mots de passe avec bcrypt.</p>
+            </article>
+        </section>
+
+        <section class="bottom-grid">
+            <div>
+                <h2>Formation</h2>
+                <p><strong>Orange Digital Center</strong> <span class="muted">· 2026</span></p>
+                <p><strong>Université Numérique du Sénégal</strong> <span class="muted">· 2022–2023</span></p>
+                <p><strong>Baccalauréat</strong> <span class="muted">· 2022</span></p>
+                <p class="muted">Renaissance Al Amine · 2018–2022</p>
+            </div>
+            <div>
+                <h2>Langues</h2>
+                <p><strong>Français :</strong> courant</p>
+                <p><strong>Anglais :</strong> intermédiaire</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
